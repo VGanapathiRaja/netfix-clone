@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libertinus+Mono&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.herosec{
+    background-image: url('../assets/bg4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.heroinnerlayer{
+    background-color: rgba(0, 0, 0, 0.281);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+.topmovie img {
+    padding: 10px;
+    margin: 5px;
+    height: 235px;
+    border-radius: 15px;
+    width: 100%;
+}
+.moremovies{
+    padding: 15px 20px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: #fff;
+}
+.moremovies h2{
+    font-size: 18px;
+}
+.icon{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+@media (min-width:320px) and (max-width:480px) {
+    .herocontent {
+        font-size: 21px;
+    }
+}
